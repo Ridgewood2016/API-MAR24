@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "d8415d0c-333a-45ab-baac-1b343a6ebfa4",
-		"name": "ASK-Tests",
+		"_postman_id": "b651a9f2-4886-43df-849d-da737c452167",
+		"name": "ASK-Tests-APR24",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20743530",
-		"_collection_link": "https://planetary-flare-876162.postman.co/workspace/MAR25~16aa6abc-7081-4201-8911-70e427b49112/collection/20743530-d8415d0c-333a-45ab-baac-1b343a6ebfa4?action=share&source=collection_link&creator=20743530"
+		"_collection_link": "https://planetary-flare-876162.postman.co/workspace/MAR25~16aa6abc-7081-4201-8911-70e427b49112/collection/20743530-b651a9f2-4886-43df-849d-da737c452167?action=share&source=collection_link&creator=20743530"
 	},
 	"item": [
 		{
@@ -532,7 +532,7 @@
 							"\r",
 							"pm.test(\"Verify that list of assignments contains assignmentID \", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData[jsonData.length-1].id).to.eql(pm.environment.get(\"assignmentID\"));\r",
+							"    pm.expect(jsonData[jsonData.length-1].id).to.eql(pm.environment.get(\"assignmentId\"));\r",
 							"});"
 						],
 						"type": "text/javascript",
